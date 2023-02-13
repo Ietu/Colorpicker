@@ -10,7 +10,7 @@ def get_color():
     return hex_color, color
 
 def main():
-    print("Press 'F8' to get the color values under the cursor.")
+    print("Press 'F8' to get color values under cursor.")
     print("Press 'F9' to exit.")
     while True:
         if keyboard.is_pressed('f8'):
